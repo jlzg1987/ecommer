@@ -14,7 +14,11 @@
     padding-top: 10px;
     padding-left: 10px;
 }
-
+.category-all{
+    padding-top: 4rem;
+    padding-left: 0.5rem;
+    width: 200px;
+}
 .Category-content {
     display: flex;
     flex-direction: column;
@@ -693,3 +697,19 @@
     text-align: justify;
     
  }
+ .pieend{
+    margin-top: 3rem;
+    padding-top: 1rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+background: #2e2e35;
+ }
+.containerend{
+   display:  flex;
+   align-items: center;
+   justify-content: center;
+   padding-left: 3rem;
+   gap: 2rem;
+}

@@ -10,7 +10,7 @@ const Home = () => {
   const dispatch = useDispatch()
   const newsListProduc = useSelector((state) => state.newProduct);
   const [categories, setCategories] = useState([]);
-  const [newsSearch, setNewsSearch] = useState([]);
+
   const navigate = useNavigate();
   const [productFiltrePrice, setProductFiltrePrice] = useState([])
   //Paginado
@@ -41,26 +41,11 @@ useEffect(() => {
 
   return (
     <div className="headerAll">
-      <div className="searchInput">
-        <InputGroup className="mb-3">
-          <Form.Control
-            placeholder="Recipient's username"
-            aria-label="Recipient's username"
-            aria-describedby="basic-addon2"
-            value={newsSearch}
-            onChange={(e) => setNewsSearch(e.target.value)}
-          />
-          <Button onClick={() => dispatch(filterNewsHeadlineThunk(newsSearch))}
-            variant="outline-secondary"
-            id="button-addon2">
-            <i className="fa-solid fa-magnifying-glass"></i>
-          </Button>
-        </InputGroup>
-      </div >
+  
       <div className="content">
         <div className="search-AllProduct">
 
-          <Accordion defaultActiveKey="0">
+          <Accordion className="category-all" defaultActiveKey="0">
             
             <Accordion.Item eventKey="0">
               <Accordion.Header>Category</Accordion.Header>
@@ -132,7 +117,19 @@ useEffect(() => {
         </div>
 
       </div>
-
+            <div className="pieend">
+              <div className="containerend">
+                <div className="about">
+                <h5>About Me</h5>
+                <h6>Creado por:</h6>
+                <p>Ma. Ing. Jose Zambrano</p>
+                <p>jlzg1987@hotmail.com</p>
+                </div>
+                <div className="frace">
+                  <p>Creador con amor </p>
+                </div>
+              </div>
+            </div>
     </div>
   );
 };

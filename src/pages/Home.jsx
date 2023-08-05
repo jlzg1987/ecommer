@@ -4,7 +4,7 @@ import { useNavigate } from "react-router-dom";
 import { filterNewsCategoryThunk, filterNewsHeadlineThunk, getProductThunk } from "../store/slices/productNew.slice";
 import axios from "axios";
 import { Accordion, Button, Card, Form, InputGroup } from "react-bootstrap";
-
+import './Home.css'
 
 const Home = () => {
   const dispatch = useDispatch()
@@ -47,7 +47,7 @@ useEffect(() => {
 
           <Accordion className="category-all" defaultActiveKey="0">
             
-            <Accordion.Item eventKey="0">
+            <Accordion.Item className="category" eventKey="0">
               <Accordion.Header>Category</Accordion.Header>
               <Accordion.Body>
                 <div className="Category-content">
@@ -92,7 +92,7 @@ useEffect(() => {
               Next page
             </button>
           </div>
-          <ul>
+          <ul className="ul-producto">
 
             {
 

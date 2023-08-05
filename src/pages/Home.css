@@ -1,0 +1,42 @@
+@media screen and (max-width: 800px){
+  
+    .category-all{
+       
+     margin-left: 15rem ;
+        display: flex;
+        justify-content: center;
+     padding-bottom: 2rem;
+    }
+   .Category-content{
+   width: 300px;
+  
+}
+.Product{
+    
+    width: 100%;
+  margin: 0 auto;
+  padding: 1rem;
+
+}
+.pageall{
+    
+    justify-content: center;
+}
+.ul-producto{
+    
+    margin: 0 auto;
+    justify-content: center;
+   
+}
+
+}
+@media screen and (max-width: 400px){
+    .category-all{
+        margin-left: 5rem ;
+    }
+   .Category-content{
+   width: 200px;
+  
+}
+   
+}

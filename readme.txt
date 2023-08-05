@@ -27,9 +27,9 @@ Esto iniciará un servidor local y nos permitirá ver nuestro Front-end
 
 VITE v4.0.4 ready in 1356 ms
 
-+ ➜ Local: http://localhost:5173/
-+ ➜ Network: use --host to expose
-+ ➜ press h to show help
+- ➜ Local: http://localhost:5173/
+- ➜ Network: use --host to expose
+- ➜ press h to show help
 
 Esta sera nuestra Url para verlo en el navegador
 

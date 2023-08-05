@@ -17,6 +17,10 @@ Se recomienda usar Code Studio, Freeware de Vite React
 - Una ves ubicado instalamos sus dependencias con npm install
 - Para abrir el proyecto usamos Code .
 
+### API
+
+https://documenter.getpostman.com/view/17877993/2s8ZDczLBj
+
 ## Inicializar el proyecto
 
 En el terminal de Code estudio colocamos:

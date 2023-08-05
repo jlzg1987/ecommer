@@ -1,0 +1,24 @@
+# Conclusión del proyecto E-commer
+
+En este proyecto se uso un freeware bootswatch que nos ayuda con plantilla web que se puede modificar con diferentes diseños ("https://bootswatch.com/").
+se uso bastantes tecnología y dependencias para su funcionalidades:
+
+- @reduxjs/toolkit
+- bootswatch
+- react-bootstrap
+- react-dom
+- react-hook-form
+- react-redux
+- react-router-dom
+  para desarrollo:
+- @types/react
+- @types/react-dom
+- @vitejs/plugin-react
+
+### API usada para este frontend
+
+Se uso una API de la Academia de Academlo ya tenia rutas que iban con el ejercicio.
+
+### API
+
+https://documenter.getpostman.com/view/17877993/2s8ZDczLBj

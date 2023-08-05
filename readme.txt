@@ -10,6 +10,11 @@ Se recomienda usar Code Studio, Freeware de Vite React
   - https://www.youtube.com/watch?v=qMC6Gf7bXeY
   - (Video de Como inicializar Vite)
 
+
+### API
+
+https://documenter.getpostman.com/view/17877993/2s8ZDczLBj
+
 ## Pasos para abrir el proyecto Code Studio
 
 - Clonar el repositorio en tu pc/laptop
